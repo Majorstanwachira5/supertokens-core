@@ -1,0 +1,146 @@
+<style>
+    /* Reset default browser styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: greenyellow;
+      font-size: 15px;
+    }
+
+    header {
+      background-color: indianred;
+      padding: 20px;
+    }
+
+    header h1 {
+      color: indigo;
+      font-family: "Children's Font", cursive;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    #hero {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    #hero h2 {
+      font-size: 28px;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #009e99;
+      color: darkblue;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #learning-modules {
+      margin-bottom: 30px;
+    }
+
+    .module {
+      background-color: royalblue;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .module h4 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .module-button {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #009e99;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #games-activities {
+      margin-bottom: 30px;
+    }
+
+    .game {
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .game h4 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .game img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .game-button {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #009e99;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #resources {
+      background-color: #def7f6;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .resource-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #009e99;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: lightgreen;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+  </style>
